@@ -1,0 +1,13 @@
+{
+  "name": "webpack-ExtendedAPIPlugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --mode production",
+    "build": "webpack --config webpack.config.prod.js --mode production"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
